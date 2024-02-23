@@ -26,6 +26,7 @@
 8.  `lua` ([**_IMPORTANT!!_** Guide to setup and install](https://command-not-found.com/lua))
 9. **Below are the required binaries and their respective versions, for each one install them with the exact or higher version in mind!**
 <img width="836" alt="image" src="https://github.com/stanleyogada/basic-neovim-configuration/assets/102979724/f719bbfb-a423-4417-a6df-e0174b11b39f">
+<img width="851" alt="image" src="https://github.com/stanleyogada/simple-neovim-configuration/assets/102979724/03722c34-66c0-4e22-96c5-11141867ce05">
 
 ## Usage
 1. **Backup** or **Remove** your existing (`~/.config/nvim`)
