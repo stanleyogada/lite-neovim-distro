@@ -30,7 +30,7 @@
    ```
 
   _MacOS_ \
-Below is a guide in a video in very fast-play, pause, and rewind you need to.
+Below is a guide to a video in high-speed play you may need to pause or slow down the video speed if you need to.
 
 https://github.com/stanleyogada/simple-neovim-configuration/assets/102979724/75a03348-6a6b-4577-a86e-125555985c43
 
@@ -42,7 +42,7 @@ https://github.com/stanleyogada/simple-neovim-configuration/assets/102979724/75a
 This is the flow to change the font in any terminal, You can also google search it if you need to. **preferences** > **profiles** > **text/fonts** > **change fonts** \
 _MAKE SURE TO SELECT THE NERD FONT YOU DOWNLOADED_
 
-Below is a guide in a video in very fast-play, pause, and rewind you need to.
+Below is a guide to a video in high-speed play you may need to pause or slow down the video speed if you need to.
 
 
 https://github.com/stanleyogada/simple-neovim-configuration/assets/102979724/fdfed052-ee26-4dfc-84e0-5d62f74e3584
