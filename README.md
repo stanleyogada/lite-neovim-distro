@@ -1,16 +1,16 @@
 # My Neovim Configuration
 
 # Features / Plugins
-- **Packer**: Easy to use plugin manager. ([Read more about the plugin](#))
-- **Telescope**: Fuzzy finding (`<Space>ff`), live grep (`<Space>fg`), etc. ([Read more about the plugin](#))
-- **GruvBox**: The most popular neovim color scheme/theme. ([Read more about the plugin](#))
-- **Nvim-Tree**: Files tree (`<C-n>`), etc. ([Read more about the plugin](#))
-- **Web-Devicons**: Displays icons. ([Read more about the plugin](#))
-- **Lualine**: Beautiful statusline. ([Read more about the plugin](#))
-- **Treesitter**: Syntax highlighting etc. ([Read more about the plugin](#))
-- **GitSigns**: Signs for added, removed, and changed lines, etc. ([Read more about the plugin](#))
-- **Barbar**: Beautiful tabline, etc. ([Read more about the plugin](#))
-- **Minintro**: Beautiful "NEOVIM" intro when type `nvim` from the terminal. ([Read more about the plugin](#))
+- **Packer**: Easy to use plugin manager. ([Read more about the plugin](https://github.com/wbthomason/packer.nvim))
+- **Telescope**: Fuzzy finding (`<Space>ff`), live grep (`<Space>fg`), etc. ([Read more about the plugin](https://github.com/nvim-telescope/telescope.nvim))
+- **GruvBox**: The most popular neovim color scheme/theme. ([Read more about the plugin](https://github.com/ellisonleao/gruvbox.nvim))
+- **Nvim-Tree**: Files tree (`<C-n>`), etc. ([Read more about the plugin](https://github.com/nvim-tree/nvim-tree.lua))
+- **Web-Devicons**: Displays icons. ([Read more about the plugin](https://github.com/nvim-tree/nvim-web-devicons))
+- **Lualine**: Beautiful statusline. ([Read more about the plugin](https://github.com/nvim-lualine/lualine.nvim))
+- **Treesitter**: Syntax highlighting etc. ([Read more about the plugin](https://github.com/nvim-treesitter/nvim-treesitter))
+- **GitSigns**: Signs for added, removed, and changed lines, etc. ([Read more about the plugin](https://github.com/lewis6991/gitsigns.nvim))
+- **Barbar**: Beautiful tab line, etc. ([Read more about the plugin](https://github.com/romgrk/barbar.nvim))
+- **Minintro**: Beautiful "NEOVIM" intro when you type `nvim` from the OS's terminal. ([Read more about the plugin](https://github.com/eoh-bse/minintro.nvim))
 
 ## Requirements / Prerequisite
 - `MacOS` or `Linux` Operating System
