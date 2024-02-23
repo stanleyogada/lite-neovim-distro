@@ -27,6 +27,8 @@
    ```
 
   _MacOS_
-![](https://github.com/stanleyogada/simple-neovim-configuration/assets/102979724/13d7fb30-4707-417c-b5ea-195dae2b541e)
+  <video width="320" height="240" controls>
+    <source src="https://github.com/stanleyogada/simple-neovim-configuration/assets/102979724/13d7fb30-4707-417c-b5ea-195dae2b541e)https://github.com/stanleyogada/simple-neovim-configuration/assets/102979724/13d7fb30-4707-417c-b5ea-195dae2b541e" t:ype="video/mp4">
+  </video>
 
 
