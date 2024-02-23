@@ -24,9 +24,9 @@
 2. **Unzip and Install the downloaded zip to the appropriate directory**
 \
 
-  _Linux (Debian)_
+  _Linux (Debian)_ Type `A` if prompted for renaming
    ```bash
-   unzip FiraMono.zip -d ~/.fonts && yes A | fc-cache -fv;
+   unzip FiraMono.zip -d ~/.fonts && fc-cache -fv;
    ```
 
   _MacOS_ \
