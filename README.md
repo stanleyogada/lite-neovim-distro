@@ -38,7 +38,7 @@ A complete guide to turning your NVIM into an IDE. Quickly get started with neov
 #
 
 ## Usage (For both Linux and macOS)
-1. **Backup** or **Remove** your existing nvim (`~/.config/nvim`). **_If you know you don't have any neovim configuration please skip this step_**
+1. **Backup** or **Remove** your existing nvim config (`~/.config/nvim`). **_If you know you don't have any neovim configuration please skip this step_**
    - Backup
        ```bash
        find ~/.local/share ~/.config -type d -name "nvim" | while read -r old_dir; do
