@@ -1,5 +1,5 @@
 # My Neovim Configuration
-A complete guide to turning your NVIM into an IDE. Quickly get started with neovim and some cool plugins out-of-box 2-steps installation (prerequisites excluded)
+A complete guide to turning your NVIM into an IDE. Quickly get started with neovim and some cool plugins out-of-box 2-step installation (prerequisites excluded)
 
 # Features / Plugins
 - **Packer**: Easy to use plugin manager. ([**_OPTIONAL!!_**  Read more about this plugin](https://github.com/wbthomason/packer.nvim))
@@ -21,10 +21,10 @@ A complete guide to turning your NVIM into an IDE. Quickly get started with neov
      ```
 3. Install Any `Nerd Font`, and Set it up for your terminal. ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/NERDFONT.md))
 4. For terminal choice, use `Iterm` or `Terminator` For **MacOS**, use `Terminator` for **Linux (Debian)**.
-5. Install `rg`/`ripgrep` any version. ([**_IMPORTANT!!_** Guide to setup and install](https://command-not-found.com/rg))
-6. Install `fd` any version. ([**_IMPORTANT!!_** Guide to setup and install](https://command-not-found.com/fd))
-7. Install `neovim`  version 0.9.5 or higher. ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/NEOVIM.md))
-8. Install `lua` version 5.4.6 or higher.
+5. Install `rg`/`ripgrep` in any version. ([**_IMPORTANT!!_** Guide to setup and install](https://command-not-found.com/rg))
+6. Install `fd` in any version. ([**_IMPORTANT!!_** Guide to setup and install](https://command-not-found.com/fd))
+7. Install `neovim` in version 0.9.5 or higher. ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/NEOVIM.md))
+8. Install `lua` in version 5.4.6 or higher.
     - **MacOS**
         ```bash
         brew install lua
@@ -38,14 +38,14 @@ A complete guide to turning your NVIM into an IDE. Quickly get started with neov
 #
 
 ## Usage
-1. **Backup** or **Remove** your existing (`~/.config/nvim`)
+1. **Backup** or **Remove** your existing nvim (`~/.config/nvim`). **_If you know you don't have any neovim configuration please skip this step_**
    - Backup
        ```bash
-       mv ~/.config/nvim ~/.config/nvim.backup
+       [[ -e ~/.config/nvim ]] && mv ~/.config/nvim ~/.config/nvim.backup
        ```
    - Remove
        ```bash
-       rm ~/.config/nvim -fr
+       [[ -e ~/.config/nvim ]] && rm ~/.config/nvim -fr
        ```
 2. Git Clone this repository
      ```bash
