@@ -72,5 +72,7 @@ A complete guide to turning your NVIM into an IDE. Quickly get started with neov
 Below is a guide to a video in high-speed play you may need to pause or slow down the video speed if you need to.
 
 
-https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/f1150840-33a3-40a3-b225-97adb24cbd17
+https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/5cb77305-d0d4-46b8-bcf0-dd2ae798dc0f
+
+
 
