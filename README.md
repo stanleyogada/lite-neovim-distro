@@ -35,6 +35,8 @@ A complete guide to turning your NVIM into an IDE. Quickly get started with neov
         sudo apt update && sudo apt install lua5.4 -y
         ```
 
+#
+
 ## Usage
 1. **Backup** or **Remove** your existing (`~/.config/nvim`)
    - Backup
