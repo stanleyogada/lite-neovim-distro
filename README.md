@@ -1,4 +1,5 @@
 # My Neovim Configuration
+A complete guide to turning NVIM into an IDE. Quickly get started with neovim and some cool plugins out-of-box 2-steps installation (prerequisites excluded)
 
 # Features / Plugins
 - **Packer**: Easy to use plugin manager. ([**_OPTIONAL!!_**  Read more about this plugin](https://github.com/wbthomason/packer.nvim))
