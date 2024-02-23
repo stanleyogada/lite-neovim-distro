@@ -41,11 +41,18 @@ A complete guide to turning your NVIM into an IDE. Quickly get started with neov
 1. **Backup** or **Remove** your existing nvim (`~/.config/nvim`). **_If you know you don't have any neovim configuration please skip this step_**
    - Backup
        ```bash
-       [[ -e ~/.config/nvim ]] && mv ~/.config/nvim ~/.config/nvim.backup
+       find ~/.local/share ~/.config -type d -name "nvim" | while read -r old_dir; do
+          parent_dir=$(dirname "$old_dir")
+          new_dir="${parent_dir}/nvim.backup"
+      
+          # Rename the directory
+          mv "$old_dir" "$new_dir"
+          echo "Renamed $old_dir to $new_dir"
+       done
        ```
    - Remove
        ```bash
-       [[ -e ~/.config/nvim ]] && rm ~/.config/nvim -fr
+       find ~/.local/share ~/.config -type d -name "nvim" -exec rm -fr {} +
        ```
 2. Git Clone this repository
      ```bash
