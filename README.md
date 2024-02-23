@@ -54,11 +54,16 @@ A complete guide to turning your NVIM into an IDE. Quickly get started with neov
        ```bash
        find ~/.local/share ~/.config -type d -name "nvim" -exec rm -fr {} +
        ```
-2. Git Clone this repository
+
+2. **Install the config**.
      ```bash
-     git clone https://github.com/stanleyogada/basic-neovim-configuration.git ~/.config/nvim
+     git clone https://github.com/stanleyogada/basic-neovim-configuration.git ~/.config/nvim && nvim
      ```
-3. You're all set
+ > **NOTE: The above script will clone the config and open NVIM \
+ > If you get an error, just **Hit the `ENTER KEY` on your keyboard twice** and Packer will fix the errors and set everything up for you. \
+ > Once you see `packer.nvim - finished in ...s` at the top-left, Quit NVIM and open it again for all changes to fully apply 🙂**
+
+3. **You're all set** 🚀 
      ```bash
-     cd ~/.config/nvim && nvim
+     nvim
      ```
