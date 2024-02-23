@@ -26,7 +26,7 @@
 
   _Linux (Debian)_
    ```bash
-   unzip FiraMono.zip -d ~/.fonts && fc-cache -fv;
+   unzip FiraMono.zip -d ~/.fonts && yes A | fc-cache -fv;
    ```
 
   _MacOS_ \
