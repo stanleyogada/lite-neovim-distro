@@ -14,12 +14,12 @@
 
 ## Requirements / Prerequisite
 - `MacOS` or `Linux` Operating System
-- Install Any `Nerd Font`, I use the **FiraMono Nerd Font** And Setup for your terminal ([**_IMPORTANT!!_** Guide to setup and install](#))
-- For terminal choice, use `Iterm` or `Terminator` For **MacOS**, use `Terminator` For **Linux** ([**_IMPORTANT!!_** Guide to setup and install](#))
-- `rg`/`ripgrep` ([**_IMPORTANT!!_** Guide to setup and install](#))
-- `fd` ([**_IMPORTANT!!_** Guide to setup and install](#))
-- `neovim` ([**_IMPORTANT!!_** Guide to setup and install](#))
-- `lua` ([**_IMPORTANT!!_** Guide to setup and install](#))
+- Install Any `Nerd Font`, I use the **FiraMono Nerd Font** And Setup for your terminal ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/NerdFonts.md))
+- For terminal choice, use `Iterm` or `Terminator` For **MacOS**, use `Terminator` For **Linux** ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/Terminal.md))
+- `rg`/`ripgrep` ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/FDandRG.md))
+- `fd` ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/FDandRG.md))
+- `neovim` ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/NEOVIMandLUA.md))
+- `lua` ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/NEOVIMandLUA.md))
 - **Below are the required binaries and their versions, install them with the exact higher version in mind!**
 <img width="836" alt="image" src="https://github.com/stanleyogada/basic-neovim-configuration/assets/102979724/f719bbfb-a423-4417-a6df-e0174b11b39f">
 
