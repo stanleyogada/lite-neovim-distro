@@ -18,6 +18,9 @@
    ```bash
    wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/FiraMono.zip
    ```
+
+#
+
 2. **Unzip and Install the downloaded zip to the appropriate directory**
 \
 
@@ -26,12 +29,22 @@
    unzip FiraMono.zip -d ~/.fonts && fc-cache -fv;
    ```
 
-  _MacOS_
-
+  _MacOS_ \
+Below is a guide in a video in very fast-play, pause, and rewind you need to.
 
 https://github.com/stanleyogada/simple-neovim-configuration/assets/102979724/75a03348-6a6b-4577-a86e-125555985c43
 
 
+#
 
+3. **Setup Nerd Font for your terminal** _MacOS and Linux (Debian)_
+
+This is the flow to change the font in any terminal, You can also google search it if you need to. **preferences** > **profiles** > **text/fonts** > **change fonts** \
+_MAKE SURE TO SELECT THE NERD FONT YOU DOWNLOADED_
+
+Below is a guide in a video in very fast-play, pause, and rewind you need to.
+
+
+https://github.com/stanleyogada/simple-neovim-configuration/assets/102979724/fdfed052-ee26-4dfc-84e0-5d62f74e3584
 
 
