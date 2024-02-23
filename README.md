@@ -18,7 +18,7 @@
    - ```bash
      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
      ```
-3. Install Any `Nerd Font`, and Set it up for your terminal ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/NerdFonts.md))
+3. Install Any `Nerd Font`, and Set it up for your terminal ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/NERDFONT.md))
 4. For terminal choice, use `Iterm` or `Terminator` For **MacOS**, use `Terminator`
 5. `rg`/`ripgrep` ([**_IMPORTANT!!_** Guide to setup and install](https://command-not-found.com/rg))
 6. `fd` ([**_IMPORTANT!!_** Guide to setup and install](https://command-not-found.com/fd))
