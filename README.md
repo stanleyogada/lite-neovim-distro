@@ -28,6 +28,11 @@
      ```bash
      brew install lua
      ```
+     
+   - **Linux (Debian)**
+     ```bash
+     sudo apt update && sudo apt install lua5.4 -y
+     ```
 9. **Below are the required binaries and their respective versions, for each one install them with the exact or higher version in mind!**
 <img width="851" alt="image" src="https://github.com/stanleyogada/simple-neovim-configuration/assets/102979724/03722c34-66c0-4e22-96c5-11141867ce05">
 
