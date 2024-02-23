@@ -67,3 +67,9 @@ A complete guide to turning your NVIM into an IDE. Quickly get started with neov
      ```bash
      nvim
      ```
+
+Below is a guide in a video in very fast-play, pause, and rewind you need to.
+
+
+https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/f1150840-33a3-40a3-b225-97adb24cbd17
+
