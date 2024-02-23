@@ -16,7 +16,7 @@
 1. `MacOS` or `Linux (Debian)` Operating System
 2. Have `brew` package manager for **MacOS** ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/BREWforMACOS.md))
 3. Install Any `Nerd Font`, and Set it up for your terminal ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/NerdFonts.md))
-4. For terminal choice, use `Iterm` or `Terminator` For **MacOS**, use `Terminator` For **Linux** ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/Terminal.md))
+4. For terminal choice, use `Iterm` or `Terminator` For **MacOS**, use `Terminator`
 5. `rg`/`ripgrep` ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/FDandRG.md))
 6. `fd` ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/FDandRG.md))
 7. `neovim` ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/NEOVIMandLUA.md))
