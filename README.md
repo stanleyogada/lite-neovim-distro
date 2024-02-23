@@ -61,14 +61,15 @@ A complete guide to turning your NVIM into an IDE. Quickly get started with neov
      ```
  > **NOTE: The above script will clone the config and open NVIM \
  > If you get an error, just **Hit the `ENTER KEY` on your keyboard twice** and Packer will fix the errors and set everything up for you. \
- > Once you see `packer.nvim - finished in ...s` at the top-left, Quit NVIM and open it again for all changes to fully apply 🙂**
+ > Once you see `packer.nvim - finished in ...s` at the top-left, Quit NVIM and open it again for all changes to apply fully**
 
 3. **You're all set** 🚀 
      ```bash
      nvim
      ```
 
-Below is a guide in a video in very fast-play, pause, and rewind you need to.
+
+Below is a guide to a video in high-speed play you may need to pause or slow down the video speed if you need to.
 
 
 https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/f1150840-33a3-40a3-b225-97adb24cbd17
