@@ -23,7 +23,11 @@
 5. `rg`/`ripgrep` ([**_IMPORTANT!!_** Guide to setup and install](https://command-not-found.com/rg))
 6. `fd` ([**_IMPORTANT!!_** Guide to setup and install](https://command-not-found.com/fd))
 7. `neovim` ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/NEOVIM.md))
-8.  `lua` ([**_IMPORTANT!!_** Guide to setup and install](https://command-not-found.com/lua))
+8.  `lua`
+   - **MacOS**
+     ```bash
+     brew install lua
+     ```
 9. **Below are the required binaries and their respective versions, for each one install them with the exact or higher version in mind!**
 <img width="851" alt="image" src="https://github.com/stanleyogada/simple-neovim-configuration/assets/102979724/03722c34-66c0-4e22-96c5-11141867ce05">
 
