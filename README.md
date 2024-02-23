@@ -14,7 +14,10 @@
 
 ## Requirements / Prerequisite
 1. `MacOS` or `Linux (Debian)` Operating System
-2. Have `brew` package manager for **MacOS** ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/BREWforMACOS.md))
+2. Have `brew` package manager for **MacOS**
+   - ```bash
+     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+     ```
 3. Install Any `Nerd Font`, and Set it up for your terminal ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/NerdFonts.md))
 4. For terminal choice, use `Iterm` or `Terminator` For **MacOS**, use `Terminator`
 5. `rg`/`ripgrep` ([**_IMPORTANT!!_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/FDandRG.md))
