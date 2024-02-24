@@ -6,3 +6,4 @@ require("core.plugin_config.treesitter");
 require("core.plugin_config.gitsigns");
 require("core.plugin_config.oil");
 require("core.plugin_config.minintro");
+require("core.plugin_config.nvterm");
