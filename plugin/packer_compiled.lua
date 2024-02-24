@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/barbar.nvim",
     url = "https://github.com/romgrk/barbar.nvim"
   },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
   ["github-nvim-theme"] = {
     loaded = true,
     path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
@@ -138,6 +143,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["which-key.nvim"] = {
+    loaded = true,
+    path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/which-key.nvim",
+    url = "https://github.com/folke/which-key.nvim"
   }
 }
 

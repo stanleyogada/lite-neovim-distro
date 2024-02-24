@@ -25,6 +25,8 @@ return require('packer').startup(function(use)
   use "eoh-bse/minintro.nvim"
   use "stevearc/oil.nvim"
   use "NvChad/nvterm"
+  use "github/copilot.vim"
+  use "folke/which-key.nvim"
   
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
