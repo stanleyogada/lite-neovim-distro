@@ -69,7 +69,7 @@ https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/82a1ed6c-065
 
 2. **Install the config**.
      ```bash
-     git clone https://github.com/stanleyogada/basic-neovim-configuration.git ~/.config/nvim && nvim
+     git clone https://github.com/stanleyogada/lite-neovim-distro.git ~/.config/nvim && nvim
      ```
  > **Note:** The above script will clone the config and open Neovim. If you encounter an error, just hit the `ENTER KEY` on your keyboard twice, and Packer will fix the errors and set everything up for you. Once you see `packer.nvim - finished in ...s` at the top-left, Quit Neovim and open it again for all changes to apply fully.
 
