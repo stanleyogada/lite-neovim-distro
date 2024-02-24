@@ -28,6 +28,7 @@ return require('packer').startup(function(use)
   use "github/copilot.vim"
   use "folke/which-key.nvim"
   use "folke/twilight.nvim"
+  use "folke/zen-mode.nvim"
   
   
   -- Automatically set up your configuration after cloning packer.nvim
