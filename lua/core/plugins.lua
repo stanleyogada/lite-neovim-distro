@@ -33,6 +33,7 @@ return require('packer').startup(function(use)
   use "folke/todo-comments.nvim"
   use "folke/lsp-colors.nvim"
   use "folke/trouble.nvim"
+  use "rmagatti/auto-session"
 
   -- TODO: Add an LSP plugin
   
