@@ -33,6 +33,7 @@ return require('packer').startup(function(use)
     "eoh-bse/minintro.nvim",
     config = function() require("minintro").setup() end
   }
+  use "stevearc/oil.nvim"
   
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
