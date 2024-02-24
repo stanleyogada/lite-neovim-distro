@@ -1,6 +1,6 @@
 # Lite Neovim Distro
 
-Welcome to Lite Neovim Distro, a minimalist Neovim distribution designed to provide a blazing fast and lightweight Neovim setup in just a few seconds. This guide will walk you through the installation process and highlight the features included.
+Welcome to Lite Neovim Distro, a minimalist Neovim distribution designed to provide a blazing fast, and lightweight Neovim setup in just a few seconds. This guide will walk you through the installation process and highlight the features included.
 
 #
 
@@ -24,6 +24,9 @@ https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/82a1ed6c-065
 - **Barbar**: A beautiful tab line, etc. ([**_Optional_** Read more about this plugin](https://github.com/romgrk/barbar.nvim))
 - **Minintro**: A beautiful "NEOVIM" intro when you type just `nvim` from the OS's terminal. ([**_Optional_** Read more about this plugin](https://github.com/eoh-bse/minintro.nvim))
 
+#
+#
+
 ## Requirements / Prerequisites
 1. Operating System: `MacOS` or `Linux (Debian)`.
 2. Have `brew` package manager for **MacOS**.
@@ -45,6 +48,8 @@ https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/82a1ed6c-065
         sudo apt update && sudo apt install lua5.4 -y
         ```
 
+#
+#
 ## Usage (For both Linux and macOS)
 1. **Backup** or **Remove** your existing nvim config (`~/.config/nvim`). **_If you know you don't have any Neovim configuration, please skip this step._**
    - Backup
