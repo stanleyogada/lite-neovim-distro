@@ -11,6 +11,7 @@ end
 
 local packer_bootstrap = ensure_packer()
 
+
 return require('packer').startup(function(use)
   use "wbthomason/packer.nvim"
   use "projekt0n/github-nvim-theme"
@@ -29,7 +30,11 @@ return require('packer').startup(function(use)
   use "folke/which-key.nvim"
   use "folke/twilight.nvim"
   use "folke/zen-mode.nvim"
-  
+  use "folke/todo-comments.nvim"
+  use "folke/lsp-colors.nvim"
+  use "folke/trouble.nvim"
+
+  -- TODO: Add an LSP plugin
   
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
