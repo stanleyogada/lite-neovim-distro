@@ -8,6 +8,7 @@ require("telescope").setup({
     sorting_strategy = "descending",
     layout_strategy = "horizontal",
     layout_config = {
+      prompt_position = "top",
       horizontal = {
         mirror = false,
       },
@@ -35,9 +36,7 @@ require("telescope").setup({
       override_file_sorter = true,
     },
   },
-})
-
-
+});
 
 vim.keymap.set('n', '<leader>ff', ':Telescope find_files<CR>', { noremap = true, silent = true });
 vim.keymap.set('n', '<leader>fg', ':Telescope live_grep<CR>', { noremap = true, silent = true });

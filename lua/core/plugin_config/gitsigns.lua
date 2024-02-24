@@ -41,3 +41,5 @@ require('gitsigns').setup {
     enable = false
   },
 }
+
+vim.cmd([[ Gitsigns toggle_current_line_blame ]])
