@@ -12,16 +12,16 @@ end
 local packer_bootstrap = ensure_packer()
 
 return require('packer').startup(function(use)
-  use 'wbthomason/packer.nvim'
-  use 'projekt0n/github-nvim-theme'
-  use 'nvim-tree/nvim-tree.lua'
-  use 'nvim-tree/nvim-web-devicons'
-  use 'nvim-lualine/lualine.nvim'
-  use 'nvim-treesitter/nvim-treesitter'
+  use "wbthomason/packer.nvim"
+  use "projekt0n/github-nvim-theme"
+  use "nvim-tree/nvim-tree.lua"
+  use "nvim-tree/nvim-web-devicons"
+  use "nvim-lualine/lualine.nvim"
+  use "nvim-treesitter/nvim-treesitter"
   use "nvim-lua/plenary.nvim"
-  use { 'nvim-telescope/telescope.nvim', tag = '0.1.5' }
-  use 'lewis6991/gitsigns.nvim'
-  use 'romgrk/barbar.nvim'
+  use { "nvim-telescope/telescope.nvim", tag = "0.1.5" }
+  use "lewis6991/gitsigns.nvim"
+  use "romgrk/barbar.nvim"
   use "eoh-bse/minintro.nvim"
   use "stevearc/oil.nvim"
   use "NvChad/nvterm"
