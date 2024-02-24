@@ -27,13 +27,8 @@ require("nvterm").setup({
 
 
 local terminal = require("nvterm.terminal")
-
-local ft_cmds = {
-  python = "python3 " .. vim.fn.expand('%')
-}
 local toggle_modes = {'n', 't'}
 local mappings = {
-  { 'n', '<C-l>', function () terminal.send(ft_cmds[vim.bo.filetype]) end },
   { toggle_modes, '<leader>th', function () terminal.toggle('horizontal') end },
   { toggle_modes, '<leader>tv', function () terminal.toggle('vertical') end },
   { toggle_modes, '<leader>tf', function () terminal.toggle('float') end },

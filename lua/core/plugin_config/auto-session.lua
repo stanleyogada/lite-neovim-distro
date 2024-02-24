@@ -10,6 +10,6 @@ require("auto-session").setup({
   },
 });
 
-vim.keymap.set("n", "<leader>ls", require("auto-session.session-lens").search_session, {
+vim.keymap.set("n", "<leader>fs", require("auto-session.session-lens").search_session, {
   noremap = true,
 })

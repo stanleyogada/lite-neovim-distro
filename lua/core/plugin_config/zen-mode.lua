@@ -1,1 +1,1 @@
-vim.keymap.set('n', '<leader>zz', ':ZenMode<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>z', ':ZenMode<CR>', { noremap = true, silent = true })
