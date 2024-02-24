@@ -144,6 +144,11 @@ _G.packer_plugins = {
     path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["twilight.nvim"] = {
+    loaded = true,
+    path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/twilight.nvim",
+    url = "https://github.com/folke/twilight.nvim"
+  },
   ["which-key.nvim"] = {
     loaded = true,
     path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/which-key.nvim",
