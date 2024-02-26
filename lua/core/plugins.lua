@@ -1,8 +1,8 @@
 local ensure_packer = function()
   local fn = vim.fn
-  local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
+  local install_path = fn.stdpath('data') .. '/site/pack/packer/start/packer.nvim'
   if fn.empty(fn.glob(install_path)) > 0 then
-    fn.system({'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path})
+    fn.system({ 'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path })
     vim.cmd [[packadd packer.nvim]]
     return true
   end
@@ -20,7 +20,13 @@ return require('packer').startup(function(use)
   use "nvim-lualine/lualine.nvim"
   use "nvim-treesitter/nvim-treesitter"
   use "nvim-lua/plenary.nvim"
-  use { "nvim-telescope/telescope.nvim", tag = "0.1.5" }
+  use {
+    "nvim-telescope/telescope.nvim",
+    tag = "0.1.5",
+    requires = {
+      "smartpde/telescope-recent-files"
+    },
+  }
   use "lewis6991/gitsigns.nvim"
   use "romgrk/barbar.nvim"
   use "eoh-bse/minintro.nvim"
@@ -36,10 +42,24 @@ return require('packer').startup(function(use)
   use "rmagatti/auto-session"
   use "numToStr/Comment.nvim"
 
-  -- TODO: Add an LSP plugin
   use {
     "neoclide/coc.nvim",
     branch = "release",
+  }
+
+  use {
+    "mfussenegger/nvim-dap",
+    requires = {
+      "theHamsta/nvim-dap-virtual-text",
+      "rcarriga/nvim-dap-ui"
+    }
+  }
+  -- NodeJS Debug Adapter
+  use "mxsdev/nvim-dap-vscode-js"
+  use {
+    "microsoft/vscode-js-debug",
+    opt = true,
+    run = "npm install --legacy-peer-deps && npx gulp vsDebugServerBundle && mv dist out"
   }
 
   -- Automatically set up your configuration after cloning packer.nvim

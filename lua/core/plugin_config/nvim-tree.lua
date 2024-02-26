@@ -5,7 +5,7 @@ require("nvim-tree").setup();
 
 
 
-vim.cmd([[autocmd VimLeavePre * lua vim.cmd(":NvimTreeFindFileToggle")]])
+vim.cmd([[autocmd VimLeavePre * lua vim.cmd(":NvimTreeClose")]])
 
 vim.keymap.set('n', '<leader>n', ':NvimTreeFindFileToggle<CR>');
 

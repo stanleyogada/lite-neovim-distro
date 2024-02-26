@@ -10,22 +10,35 @@ wk.register({
 
   h = "Highlight Turn OFF",
   n = "Nvim Tree Toogle",
+
   --
 
   b = {
     name = "Buffer Tabs",
-    c = "Close Tab",
-    C = "Wipeout all Tabs !(PIN & Current)",
+    q = "Quit Tab (Close current tab)",
+    c = "Quit all Tabs (but not PIN & Current)",
     s = "Select a Tab by its letter",
     p = "PIN a Tab",
     ["<Left>"] = "Previous Tab",
     ["Right"] = "Next Tab",
   },
 
+  --
+  d = {
+    name = "Debugging",
+    b = "Toggle Breakpoint",
+    c = "Continue",
+    i = "Step Into",
+    o = "Step Over",
+  },
+
+  --
+
   f = {
     name = "Telescope",
-    f = "Find File",
-    g = "Live Grep",
+    f = "Find all Files in the project",
+    r = "Find in Recently opened files",
+    g = "Live Grep in the project",
     b = "Switch Buffers",
     h = "Help Tags",
     s = "Switch Project Sessions",

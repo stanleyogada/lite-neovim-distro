@@ -17,3 +17,4 @@ require("core.plugin_config.auto-session");
 require("core.plugin_config.comment");
 require("core.plugin_config.coc");
 require("core.plugin_config.barbar");
+require("core.plugin_config.nvim-dap");
