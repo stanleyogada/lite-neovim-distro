@@ -1,0 +1,15 @@
+{
+  "cSpell.ignoreWords": [
+    "signin",
+    "testid"
+  ],
+  "cSpell.userWords": [
+    "Passcode",
+    "Tpage",
+    "barbar",
+    "keymap",
+    "nvim",
+    "signup",
+    "treesitter"
+  ]
+}

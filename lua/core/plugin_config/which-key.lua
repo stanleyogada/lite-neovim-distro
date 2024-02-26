@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 vim.o.timeout = true;
 vim.o.timeoutlen = 300;
 
@@ -8,10 +9,18 @@ wk.register({
   --
 
   h = "Highlight Turn OFF",
-  n = "Nvim Tree Toggle",
-  z = "Zen Mode Toggle",
-
+  n = "Nvim Tree Toogle",
   --
+
+  b = {
+    name = "Buffer Tabs",
+    c = "Close Tab",
+    C = "Wipeout all Tabs !(PIN & Current)",
+    s = "Select a Tab by its letter",
+    p = "PIN a Tab",
+    ["<Left>"] = "Previous Tab",
+    ["Right"] = "Next Tab",
+  },
 
   f = {
     name = "Telescope",

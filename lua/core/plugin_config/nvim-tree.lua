@@ -3,5 +3,6 @@ vim.g.loaded_netrwPlugin = 1;
 
 require("nvim-tree").setup();
 
+vim.cmd([[ NvimTreeFindFileToggle ]]);
 vim.keymap.set('n', '<leader>n', ':NvimTreeFindFileToggle<CR>');
 

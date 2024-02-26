@@ -16,3 +16,4 @@ require("core.plugin_config.trouble");
 require("core.plugin_config.auto-session");
 require("core.plugin_config.comment");
 require("core.plugin_config.coc");
+require("core.plugin_config.barbar");
