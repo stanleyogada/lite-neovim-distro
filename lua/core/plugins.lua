@@ -34,12 +34,17 @@ return require('packer').startup(function(use)
   use "folke/lsp-colors.nvim"
   use "folke/trouble.nvim"
   use "rmagatti/auto-session"
+  use "numToStr/Comment.nvim"
 
   -- TODO: Add an LSP plugin
-  
+  use {
+    "neoclide/coc.nvim",
+    branch = "release",
+  }
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then
     require('packer').sync()
-  end 
+  end
 end)

@@ -14,3 +14,5 @@ require("core.plugin_config.todo-comments");
 require("core.plugin_config.lsp-colors");
 require("core.plugin_config.trouble");
 require("core.plugin_config.auto-session");
+require("core.plugin_config.comment");
+require("core.plugin_config.coc");

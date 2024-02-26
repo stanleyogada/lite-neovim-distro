@@ -1,4 +1,7 @@
-require("which-key").setup(); 
+vim.o.timeout = true;
+vim.o.timeoutlen = 300;
+
+require("which-key").setup();
 local wk = require("which-key");
 
 wk.register({
@@ -7,8 +10,6 @@ wk.register({
   h = "Highlight Turn OFF",
   n = "Nvim Tree Toggle",
   z = "Zen Mode Toggle",
-
-  ["-"] = "OIL Open current/parent directory",
 
   --
 
@@ -21,7 +22,7 @@ wk.register({
     s = "Switch Project Sessions",
     t = "Todo Comments Browser",
   },
-  
+
   --
 
   t = {
