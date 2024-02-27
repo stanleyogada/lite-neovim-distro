@@ -28,6 +28,8 @@ https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/82a1ed6c-065
 #
 
 ## Requirements / Prerequisites
+### _At least ensure you have **all** listed packages in any version, but if you face any issues have my exact versions or higher!_
+
 1. Operating System: `MacOS` or `Linux (Debian)`.
 2. Have `brew` package manager for **MacOS**.
    - ```bash
@@ -37,8 +39,8 @@ https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/82a1ed6c-065
 4. For terminal choice, use `Iterm` or `Terminator` For **MacOS**, use `Terminator` for **Linux (Debian)**.
 5. Install `rg`/`ripgrep` in any version. ([**_Important_** Guide to setup and install](https://command-not-found.com/rg))
 6. Install `fd` in any version. ([**_Important_** Guide to setup and install](https://command-not-found.com/fd))
-7. Install `neovim` in version 0.9.5 or higher. ([**_Important_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/NEOVIM.md))
-8. Install `lua` in version 5.4.6 or higher.
+7. Install `neovim` in version **0.9.5** or higher. ([**_Important_** Guide to setup and install](https://github.com/stanleyogada/simple-neovim-configuration/blob/main/guides/NEOVIM.md))
+8. Install `lua` in version **5.4.6** or higher.
     - **MacOS**
         ```bash
         brew install lua
@@ -47,6 +49,8 @@ https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/82a1ed6c-065
         ```bash
         sudo apt update && sudo apt install lua5.4 -y
         ```
+8. Install `node` version **21.6.2** or higher and `npm` version **10.4.0**
+
 
 #
 #
