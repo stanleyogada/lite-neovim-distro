@@ -179,10 +179,10 @@ _G.packer_plugins = {
     path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["telescope-recent-files"] = {
+  ["telescope-undo.nvim"] = {
     loaded = true,
-    path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/telescope-recent-files",
-    url = "https://github.com/smartpde/telescope-recent-files"
+    path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/telescope-undo.nvim",
+    url = "https://github.com/debugloop/telescope-undo.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,

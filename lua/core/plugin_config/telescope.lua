@@ -35,6 +35,16 @@ require("telescope").setup({
       override_generic_sorter = false,
       override_file_sorter = true,
     },
+    undo = {
+      mappings = {
+        i = {
+          ["<cr>"] = require("telescope-undo.actions").restore,
+        },
+        n = {
+          ["<cr>"] = require("telescope-undo.actions").restore,
+        },
+      },
+    },
   },
 });
 
@@ -44,3 +54,6 @@ vim.keymap.set('n', '<leader>fr', ':Telescope oldfiles<CR>', { noremap = true, s
 vim.keymap.set('n', '<leader>fg', ':Telescope live_grep<CR>', { noremap = true, silent = true });
 vim.keymap.set('n', '<leader>fb', ':Telescope buffers<CR>', { noremap = true, silent = true });
 vim.keymap.set('n', '<leader>fh', ':Telescope help_tags<CR>', { noremap = true, silent = true });
+vim.keymap.set('n', '<leader>fu', ':Telescope undo<CR>', { noremap = true, silent = true });
+
+
