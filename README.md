@@ -1,5 +1,5 @@
 # Lite Neovim Distro
-## Version 1
+## Version 2
 
 Welcome to Lite Neovim Distro, a minimalist Neovim distribution designed to provide a blazing fast, and lightweight Neovim setup in just a few seconds. This guide will walk you through the installation process and highlight the features included.
 
@@ -70,7 +70,7 @@ https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/82a1ed6c-065
 
 2. **Install the config**.
      ```bash
-     git clone -b v1 https://github.com/stanleyogada/lite-neovim-distro.git ~/.config/nvim && nvim
+     git clone -b v2 https://github.com/stanleyogada/lite-neovim-distro.git ~/.config/nvim && nvim
      ```
  > **Note:** The above script will clone the config and open Neovim. If you encounter an error, just hit the `ENTER KEY` on your keyboard twice, and Packer will fix the errors and set everything up for you. Once you see `packer.nvim - finished in ...s` at the top-left, Quit Neovim and open it again for all changes to apply fully.
 
