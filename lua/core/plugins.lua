@@ -24,7 +24,7 @@ return require('packer').startup(function(use)
     "nvim-telescope/telescope.nvim",
     tag = "0.1.5",
     requires = {
-      "debugloop/telescope-undo.nvim" 
+      "debugloop/telescope-undo.nvim"
     },
   }
   use "lewis6991/gitsigns.nvim"
