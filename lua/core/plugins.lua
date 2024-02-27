@@ -42,6 +42,7 @@ return require('packer').startup(function(use)
   use "rmagatti/auto-session"
   use "numToStr/Comment.nvim"
   use "kylechui/nvim-surround"
+  use "mg979/vim-visual-multi" -- <C-n> -> select next, <TAB> -> enter normal mode, `ysiw"` -> surround word with "
 
   use {
     "neoclide/coc.nvim",
