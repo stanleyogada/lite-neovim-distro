@@ -41,6 +41,7 @@ return require('packer').startup(function(use)
   use "folke/trouble.nvim"
   use "rmagatti/auto-session"
   use "numToStr/Comment.nvim"
+  use "kylechui/nvim-surround"
 
   use {
     "neoclide/coc.nvim",
