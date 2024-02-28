@@ -9,13 +9,11 @@ brew install neovim
 #
 
 _Linux (Debian)_ \
-The easiest way to run this is to copy the below scripts and paste them on your terminal (Then hit the enter key on your keyboard), But feel free to use the best way if you need to.
+The easiest way to run this is to copy the below scripts and paste them on your terminal (Then hit the enter key on your keyboard) But feel free to use the best way if you need to.
 ```bash
 # Clone NeoVim repository
-git clone https://github.com/neovim/neovim.git
-
-# Change directory to NeoVim repository
-cd neovim || exit
+sudo apt update;
+(git clone https://github.com/neovim/neovim.git && cd neovim || exit) || (sudo apt install wget unzip -y && wget https://github.com/neovim/neovim/archive/refs/heads/master.zip && unzip master.zip && cd neovim-master || exit)
 
 # Checkout version 0.9.5
 git checkout tags/v0.9.5 
