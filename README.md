@@ -14,7 +14,7 @@ https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/82a1ed6c-065
 
 ## Features / Plugins
 
-> Note: <leader> is the space key.
+> Note: `<leader>` is the space key.
 
 - **Packer**: An easy-to-use plugin manager. ([**_Optional_** Read more about this plugin](https://github.com/wbthomason/packer.nvim))
 - **Telescope**: Fuzzy finding (`<Space>ff`), live grep (`<Space>fg`), etc. ([**_Optional_** Read more about this plugin](https://github.com/nvim-telescope/telescope.nvim))
