@@ -209,6 +209,11 @@ _G.packer_plugins = {
     path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/twilight.nvim",
     url = "https://github.com/folke/twilight.nvim"
   },
+  ["vim-visual-multi"] = {
+    loaded = true,
+    path = "/Users/stanleyogada/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
+    url = "https://github.com/mg979/vim-visual-multi"
+  },
   ["vscode-js-debug"] = {
     loaded = false,
     needs_bufread = false,
