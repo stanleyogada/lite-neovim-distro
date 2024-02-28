@@ -16,7 +16,7 @@ https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/82a1ed6c-065
 
 > Key Notes:
 > - The `<leader>` is the space key.
-> - This distro comes with only the [NodeJs Debugger](https://github.com/mxsdev/nvim-dap-vscode-js).
+> - This distro comes with only the [NodeJs Debugger](https://github.com/mxsdev/nvim-dap-vscode-js). I'm not really really a Debugger guy :)
 > - I have configured only for the following; [Find Tweak the config from the Adapter's section](https://github.com/stanleyogada/lite-neovim-distro/blob/latest/lua/core/plugin_config/nvim-dap.lua)
 >   - Javascript/Typescript: `Tested`
 >   - Testing with Jest (Assumes you have Jest installed on your local project): `Tested`
