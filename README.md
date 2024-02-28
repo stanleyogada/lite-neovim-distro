@@ -21,53 +21,53 @@ https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/82a1ed6c-065
 
 
 - **_PACKER_**: 
- - An easy-to-use plugin manager. ([**_Optional_** Read more about this plugin](https://github.com/wbthomason/packer.nvim))
+  - An easy-to-use plugin manager. ([**_Optional_** Read more about this plugin](https://github.com/wbthomason/packer.nvim))
 - **_TELESCOPE_**: 
- - Fuzzy finding (`<Space>ff`), live grep (`<Space>fg`), etc. ([**_Optional_** Read more about this plugin](https://github.com/nvim-telescope/telescope.nvim))
+  - Fuzzy finding (`<Space>ff`), live grep (`<Space>fg`), etc. ([**_Optional_** Read more about this plugin](https://github.com/nvim-telescope/telescope.nvim))
 - **_GITHUB-THEME_**: 
- - A beautiful github theme pack (`:colorscheme github_dark`). ([**_Optional_** Read more about this plugin](https://github.com/projekt0n/github-nvim-theme))
+  - A beautiful github theme pack (`:colorscheme github_dark`). ([**_Optional_** Read more about this plugin](https://github.com/projekt0n/github-nvim-theme))
 - **_NVIM-TREE_**: 
- - A modern File tree (`<leader>n`), etc. ([**_Optional_** Read more about this plugin](https://github.com/nvim-tree/nvim-tree.lua))
+  - A modern File tree (`<leader>n`), etc. ([**_Optional_** Read more about this plugin](https://github.com/nvim-tree/nvim-tree.lua))
 - **_WEB-DEVICONS_**: 
- - Displays icons. ([**_Optional_** Read more about this plugin](https://github.com/nvim-tree/nvim-web-devicons))
+  - Displays icons. ([**_Optional_** Read more about this plugin](https://github.com/nvim-tree/nvim-web-devicons))
 - **_LUALINE_**: 
- - A beautiful statusline. ([**_Optional_** Read more about this plugin](https://github.com/nvim-lualine/lualine.nvim))
+  - A beautiful statusline. ([**_Optional_** Read more about this plugin](https://github.com/nvim-lualine/lualine.nvim))
 - **_TREESITTER_**: 
- - Syntax highlighting, etc. ([**_Optional_** Read more about this plugin](https://github.com/nvim-treesitter/nvim-treesitter))
+  - Syntax highlighting, etc. ([**_Optional_** Read more about this plugin](https://github.com/nvim-treesitter/nvim-treesitter))
 - **_GITSIGNS_**: 
- - Signs for added, removed, and changed lines, etc. ([**_Optional_** Read more about this plugin](https://github.com/lewis6991/gitsigns.nvim))
+  - Signs for added, removed, and changed lines, etc. ([**_Optional_** Read more about this plugin](https://github.com/lewis6991/gitsigns.nvim))
 - **_BARBAR_**: 
- - A beautiful tabs manager (`<leader>bq` -> quit the current tab). ([**_Optional_** Read more about this plugin](https://github.com/romgrk/barbar.nvim))
+  - A beautiful tabs manager (`<leader>bq` -> quit the current tab). ([**_Optional_** Read more about this plugin](https://github.com/romgrk/barbar.nvim))
 - **_MININTRO_**: 
- - A beautiful "NEOVIM" intro when you type just `nvim` from the OS's terminal. ([**_Optional_** Read more about this plugin](https://github.com/eoh-bse/minintro.nvim))
+  - A beautiful "NEOVIM" intro when you type just `nvim` from the OS's terminal. ([**_Optional_** Read more about this plugin](https://github.com/eoh-bse/minintro.nvim))
 - **_TELESCOPE-UNDO_**: 
- - A telescope extension for undo history (`<leader>fu`). ([**_Optional_** Read more about this plugin](https://github.com/debugloop/telescope-undo.nvim))
+  - A telescope extension for undo history (`<leader>fu`). ([**_Optional_** Read more about this plugin](https://github.com/debugloop/telescope-undo.nvim))
 - **_OIL_**: 
- - A beautiful and fast file explorer (`-` -> Opens current/previous directory). ([**_Optional_** Read more about this plugin](https://github.com/stevearc/oil.nvim))
+  - A beautiful and fast file explorer (`-` -> Opens current/previous directory). ([**_Optional_** Read more about this plugin](https://github.com/stevearc/oil.nvim))
 - **_NVTERM_**: 
- - A beautiful terminal emulator (`<leader>tv` -> Toggle vertical terminal). ([**_Optional_** Read more about this plugin](https://github.com/NvChad/nvterm))
+  - A beautiful terminal emulator (`<leader>tv` -> Toggle vertical terminal). ([**_Optional_** Read more about this plugin](https://github.com/NvChad/nvterm))
 - **_GITHUB-COPILOT_**: 
- - AI-powered code completion (`<TAB>` -> autocomplete the suggestion). ([**_Optional_** Read more about this plugin](https://github.com/github/copilot.vim))
+  - AI-powered code completion (`<TAB>` -> autocomplete the suggestion). ([**_Optional_** Read more about this plugin](https://github.com/github/copilot.vim))
 - **_WHICH-KEY_**: 
- - A keybinding helper. ([**_Optional_** Read more about this plugin](https://github.com/folke/which-key.nvim))
+  - A keybindings helper. ([**_Optional_** Read more about this plugin](https://github.com/folke/which-key.nvim))
 - **_ZEN-MODE_**: 
- - A distraction-free writing (focus) mode. ([**_Optional_** Read more about this plugin](https://github.com/folke/zen-mode.nvim))
+  - A distraction-free writing (focus) mode. ([**_Optional_** Read more about this plugin](https://github.com/folke/zen-mode.nvim))
 - **_TELESCOPE-TODO-COMMENTS_**: 
- - A telescope extension to manage all todo comments (`<leader>fc` -> list all todo comments). ([**_Optional_** Read more about this plugin](https://github.com/folke/todo-comments.nvim))
+  - A telescope extension to manage all todo comments (`<leader>fc` -> list all todo comments). ([**_Optional_** Read more about this plugin](https://github.com/folke/todo-comments.nvim))
 - **_AUTO-SESSION_**: 
- - Let Neovim remember your opened files (`<leader>fs` -> switch to previously saved sessions). ([**_Optional_** Read more about this plugin](https://github.com/rmagatti/auto-session))
+  - Let Neovim remember your opened files (`<leader>fs` -> switch to previously saved sessions). ([**_Optional_** Read more about this plugin](https://github.com/rmagatti/auto-session))
 - **_COMMENT_**: 
- - Toggle comments with ease (`gcc`). ([**_Optional_** Read more about this plugin](https://github.com/numToStr/Comment.nvim))
+  - Toggle comments with ease (`gcc`). ([**_Optional_** Read more about this plugin](https://github.com/numToStr/Comment.nvim))
 - **_SURROUND_**: 
- - Surround text with ease (`ysiw}` -> surrounds word with {}). ([**_Optional_** Read more about this plugin](https://github.com/kylechui/nvim-surround))
+  - Surround text with ease (`ysiw}` -> surrounds word with {}). ([**_Optional_** Read more about this plugin](https://github.com/kylechui/nvim-surround))
 - **_VISUAL-MULTI_**: 
- - Work with Multiple cursors (`<C-n>`). ([**_Optional_** Read more about this plugin](https://github.com/mg979/vim-visual-multi))
+  - Work with Multiple cursors (`<C-n>`). ([**_Optional_** Read more about this plugin](https://github.com/mg979/vim-visual-multi))
 - **_COC_**: 
- - A marketplace (`:CocInstall marketplace`) packed with extensions (`<leader>m`), like LSPs (`:CocInstall coc-tsserver`), linters (`:CocInstall coc-eslint`), etc. ([**_Optional_** Read more about this plugin](https://github.com/neoclide/coc.nvim))
+  - A marketplace (`:CocInstall marketplace`) packed with extensions (`<leader>m`), like LSPs (`:CocInstall coc-tsserver`), linters (`:CocInstall coc-eslint`) etc. ([**_Optional_** Read more about this plugin](https://github.com/neoclide/coc.nvim))
 - **_DAP_**: 
- - A debugger for Neovim (`<leader>dc` -> continue, `<leader>db` -> toggle breakpoint). ([**_Optional_** Read more about this plugin](https://github.com/mfussenegger/nvim-dap))
-- **_NVIM-DAP-VSCODE-JS**:_ 
- - A NodeJS Debug Adapter. ([**_Optional_** Read more about this plugin](https://github.com/mxsdev/nvim-dap-vscode-js))
+  - A debugger for Neovim (`<leader>dc` -> continue, `<leader>db` -> toggle breakpoint). ([**_Optional_** Read more about this plugin](https://github.com/mfussenegger/nvim-dap))
+- **_NVIM-DAP-VSCODE-JS_**: 
+  - A NodeJS Debug Adapter. ([**_Optional_** Read more about this plugin](https://github.com/mxsdev/nvim-dap-vscode-js))
 
 
 
