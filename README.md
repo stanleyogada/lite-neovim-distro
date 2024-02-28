@@ -36,7 +36,7 @@ https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/82a1ed6c-065
 - **_WEB-DEVICONS_**: 
   - Displays icons. ([**_Optional_** Read more about this plugin](https://github.com/nvim-tree/nvim-web-devicons))
 - **_LUALINE_**: 
-  - A beautiful statusline. ([**_Optional_** Read more about this plugin](https://github.com/nvim-lualine/lualine.nvim))
+  - A beautiful status line. ([**_Optional_** Read more about this plugin](https://github.com/nvim-lualine/lualine.nvim))
 - **_TREESITTER_**: 
   - Syntax highlighting, etc. ([**_Optional_** Read more about this plugin](https://github.com/nvim-treesitter/nvim-treesitter))
 - **_GITSIGNS_**: 
