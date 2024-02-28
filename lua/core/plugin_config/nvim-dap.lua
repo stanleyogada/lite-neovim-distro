@@ -7,22 +7,28 @@ dapui.setup();
 
 -- Adapters
 require("dap-vscode-js").setup({
-  adapters = { 'pwa-node' }
+  adapters = { 'pwa-node', 'pwa-chrome' },
 })
-for _, language in ipairs({ 'javascript', 'typescript' }) do
+for _, language in ipairs({ 'javascript', 'typescript', 'typescriptreact' }) do
   dap.configurations[language] = {
     {
       type = "pwa-node",
       request = "launch",
-      name = "Launch file (Node)",
-      skipFiles = { "<node_internals>/**", "node_modules/**" },
+      name = "Debug JavaScript/Typescript File (Node)",
+      skipFiles = {
+        "<node_internals>/**",
+        "node_modules/**",
+        "**/node_modules/**",
+      },
+      runtimeExecutable = "ts-node",
       program = "${file}",
       cwd = "${workspaceFolder}",
+      sourceMaps = true,
     },
     {
       type = "pwa-node",
       request = "launch",
-      name = "Debug Jest Tests (Node)",
+      name = "Debug Jest Tests - \"Ensure you have jest as your dependencies\" (Node)",
       -- trace = true, -- include debugger info
       runtimeExecutable = "node",
       runtimeArgs = {
@@ -33,7 +39,34 @@ for _, language in ipairs({ 'javascript', 'typescript' }) do
       cwd = "${workspaceFolder}",
       console = "integratedTerminal",
       internalConsoleOptions = "neverOpen",
-    }
+    },
+    {
+      type = "pwa-chrome",
+      request = "launch",
+      name = "Debug React Apps -> Vite, NextJs (Chrome)",
+      url = "http://localhost:5173", -- Change the URL to match your Node.js web app
+      webRoot = "${workspaceFolder}",
+      sourceMapPathOverrides = {
+        ["webpack:///*"] = "${webRoot}/*",
+        ["webpack:///./~/*"] = "${webRoot}/node_modules/*",
+      },
+      skipFiles = {
+        "<node_internals>/**",
+        "node_modules/**",
+        "**/react/**",
+        "**/react-dom/**",
+        "**/react-scripts/**", -- If you're using create-react-app
+        "**/webpack/**",   -- Skip webpack internals
+        "**/babel/**",     -- Skip babel internals
+        "**/jest/**",      -- Skip jest internals
+        "**/vite/**",      -- Skip vite internals
+        "**/.vite/**",      -- Skip vite internals
+        "**/dist/**",      -- Skip dist directories
+        "**/next/**",      -- Skip Next.js internals
+        "**/.next/**",     -- Skip Next.js build output
+      },
+      sourceMaps = true,
+    },
   }
 end
 
