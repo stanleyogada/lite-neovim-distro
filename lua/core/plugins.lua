@@ -61,7 +61,7 @@ return require('packer').startup(function(use)
   use {
     "microsoft/vscode-js-debug",
     opt = true,
-    run = "yarn install --ignore-optional && npx gulp vsDebugServerBundle && mv dist out"
+    run = "yarn install --ignore-optional ; npx gulp vsDebugServerBundle ; mv dist out"
   }
 
   -- Automatically set up your configuration after cloning packer.nvim
