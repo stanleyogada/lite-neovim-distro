@@ -96,7 +96,7 @@ https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/82a1ed6c-065
         ```bash
         sudo apt update && sudo apt install lua5.4 -y
         ```
-8. Install `node` version **21.6.2** or higher and `npm` version **10.4.0**
+8. Install `node` version **21.6.2** or higher and `npm` version **10.4.0** or higher.
 
 
 #
