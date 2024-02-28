@@ -58,11 +58,11 @@ return require('packer').startup(function(use)
   }
   -- NodeJS Debug Adapter
   use "mxsdev/nvim-dap-vscode-js"
-  -- use {
-  --   "microsoft/vscode-js-debug",
-  --   opt = true,
-  --   run = "npm install --legacy-peer-deps && npx gulp vsDebugServerBundle && mv dist out"
-  -- }
+  use {
+    "microsoft/vscode-js-debug",
+    opt = true,
+    run = "yarn install --ignore-optional && npx gulp vsDebugServerBundle && mv dist out"
+  }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
