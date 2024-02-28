@@ -76,33 +76,4 @@ https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/82a1ed6c-065
 #
 #
 ## Usage (For both Linux and macOS)
-1. **Backup** or **Remove** your existing nvim config (`~/.config/nvim`). **_If you know you don't have any Neovim configuration, please skip this step._**
-   - Backup
-       ```bash
-       find ~/.local/share ~/.config -type d -name "nvim" | while read -r old_dir; do
-          parent_dir=$(dirname "$old_dir")
-          new_dir="${parent_dir}/nvim.backup"
-          # Rename the directory
-          mv "$old_dir" "$new_dir"
-          echo "Renamed $old_dir to $new_dir"
-       done
-       ```
-   - Remove
-       ```bash
-       find ~/.local/share ~/.config -type d -name "nvim" -exec rm -fr {} +
-       ```
-
-2. **Install the config**.
-     ```bash
-     git clone -b https://github.com/stanleyogada/lite-neovim-distro.git ~/.config/nvim && nvim
-     ```
- > **Note:** The above script will clone the config and open Neovim. If you encounter an error, just hit the `ENTER KEY` on your keyboard twice, and Packer will fix the errors and set everything up for you. Once you see `packer.nvim - finished in ...s` at the top-left, Quit Neovim and open it again for all changes to apply fully.
-
-3. **You're all set** 🚀 
-     ```bash
-     nvim
-     ```
-
-Below is a guide to a video in high-speed play. You may need to pause or slow down the video speed if necessary.
-
-[Video Guide](https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/5cb77305-d0d4-46b8-bcf0-dd2ae798dc0f)
+**_Find installation process here [here](https://github.com/stanleyogada/lite-neovim-distro/releases/tag/latest)_**
