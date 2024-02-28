@@ -30,7 +30,7 @@ https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/82a1ed6c-065
 - **_TELESCOPE_**: 
   - Fuzzy finding (`<leader>ff`), live grep (`<leader>fg`), etc. ([**_Optional_** Read more about this plugin](https://github.com/nvim-telescope/telescope.nvim))
 - **_GITHUB-THEME_**: 
-  - A beautiful github theme pack (`:colorscheme github_dark`). ([**_Optional_** Read more about this plugin](https://github.com/projekt0n/github-nvim-theme))
+  - A beautiful GitHub theme pack (`:colorscheme github_dark`). ([**_Optional_** Read more about this plugin](https://github.com/projekt0n/github-nvim-theme))
 - **_NVIM-TREE_**: 
   - A modern File tree (`<leader>n`), etc. ([**_Optional_** Read more about this plugin](https://github.com/nvim-tree/nvim-tree.lua))
 - **_WEB-DEVICONS_**: 
@@ -68,7 +68,7 @@ https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/82a1ed6c-065
 - **_VISUAL-MULTI_**: 
   - Work with Multiple cursors (`<C-n>`). ([**_Optional_** Read more about this plugin](https://github.com/mg979/vim-visual-multi))
 - **_COC_**: 
-  - A marketplace (`:CocInstall marketplace`) packed with extensions (`<leader>m`), like LSPs (`:CocInstall coc-tsserver`), linters (`:CocInstall coc-eslint`) etc. ([**_Optional_** Read more about this plugin](https://github.com/neoclide/coc.nvim))
+  - A marketplace (`:CocInstall marketplace`) packed with extensions (`<leader>m`), like LSPs (`:CocInstall coc-tsserver`), linters (`:CocInstall coc-eslint`), etc. ([**_Optional_** Read more about this plugin](https://github.com/neoclide/coc.nvim))
 - **_DAP_**: 
   - A debugger for Neovim (`<leader>dc` -> continue, `<leader>db` -> toggle breakpoint). ([**_Optional_** Read more about this plugin](https://github.com/mfussenegger/nvim-dap))
 - **_NVIM-DAP-VSCODE-JS_**: 
