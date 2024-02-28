@@ -4,7 +4,7 @@ Welcome to Lite Neovim Distro, a minimalist Neovim distribution designed to prov
 
 #
 
-<img width="1680" alt="Show Off My NVIM Config" src="https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/0ea663e0-2c91-4ed1-bd93-d90443ee4f71">
+<img width="1680" alt="Screen Shot 2024-02-28 at 2 50 53 AM" src="https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/1b3b66a8-678e-43b1-89fc-948eedc9619a">
 
 #
 
