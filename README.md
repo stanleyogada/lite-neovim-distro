@@ -14,10 +14,13 @@ https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/82a1ed6c-065
 
 ## Features / Plugins
 
-> Note: `<leader>` is the space key.
+> Key Notes:
+> - The `<leader>` is the space key.
+> - This distro comes with only the [NodeJs Debugger](https://github.com/mxsdev/nvim-dap-vscode-js) (I configure only for Javascript/Typescript),
+>   - if you need a debugger for any other programming language you will need to [configure it yourself](https://github.com/mfussenegger/nvim-dap/wiki/Debug-Adapter-installation)
 
 - **Packer**: An easy-to-use plugin manager. ([**_Optional_** Read more about this plugin](https://github.com/wbthomason/packer.nvim))
-- **Telescope**: Fuzzy finding (`<Space>ff`), live grep (`<Space>fg`), etc. ([**_Optional_** Read more about this plugin](https://github.com/nvim-telescope/telescope.nvim))
+- **Telescope**: Fuzzy finding (`<leader>ff`), live grep (`<leader>fg`), etc. ([**_Optional_** Read more about this plugin](https://github.com/nvim-telescope/telescope.nvim))
 - **Github-Theme**: A beautiful GitHub theme pack (`:colorscheme github_dark`). ([**_Optional_** Read more about this plugin](https://github.com/projekt0n/github-nvim-theme))
 - **Nvim-Tree**: A modern File tree (`<leader>n`), etc. ([**_Optional_** Read more about this plugin](https://github.com/nvim-tree/nvim-tree.lua))
 - **Web-Devicons**: Displays icons. ([**_Optional_** Read more about this plugin](https://github.com/nvim-tree/nvim-web-devicons))
