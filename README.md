@@ -8,7 +8,6 @@ Welcome to Lite Neovim Distro, a minimalist Neovim distribution designed to prov
 
 #
 
-https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/82a1ed6c-0650-4aca-ae57-21cbf0230ae1
 
 
 
