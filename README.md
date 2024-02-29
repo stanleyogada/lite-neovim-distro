@@ -6,6 +6,13 @@ Welcome to Lite Neovim Distro, a minimalist Neovim distribution designed to prov
 
 <img width="1680" alt="Screen Shot 2024-02-28 at 2 50 53 AM" src="https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/1b3b66a8-678e-43b1-89fc-948eedc9619a">
 
+
+
+
+https://github.com/stanleyogada/lite-neovim-distro/assets/102979724/b57efc8c-3edc-4380-9c18-70adafa79d9b
+
+
+
 #
 
 ### Important note! This distro has been thoroughly tested on both  MacOS and Linux (Debian) systems But It works best on MacOS
