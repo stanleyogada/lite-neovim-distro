@@ -8,7 +8,7 @@ Welcome to Lite Neovim Distro, a minimalist Neovim distribution designed to prov
 
 #
 
-
+### Important note! This distro has been thoroughly tested on both  MacOS and Linux (Debian) systems But It works best on MacOS
 
 
 ## Features / Plugins
