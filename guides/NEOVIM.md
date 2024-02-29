@@ -13,7 +13,7 @@ The easiest way to run this is to copy the below scripts and paste them on your 
 ```bash
 # Clone NeoVim repository
 sudo apt update;
-(git clone https://github.com/neovim/neovim.git && cd neovim || exit) || (sudo apt install wget unzip -y && wget https://github.com/neovim/neovim/archive/refs/heads/master.zip && unzip master.zip && cd neovim-master || exit)
+(git clone https://github.com/neovim/neovim.git && cd neovim) || (sudo apt install wget unzip -y && wget https://github.com/neovim/neovim/archive/refs/heads/master.zip && unzip master.zip && cd neovim-master || exit)
 
 # Checkout version 0.9.5
 git checkout tags/v0.9.5 
